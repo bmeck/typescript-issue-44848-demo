@@ -1,0 +1,14 @@
+{
+    "name": "test",
+    "type": "module",
+    "imports": {
+        "#a/*": "./dist/*.js"
+    },
+    "exports": {
+        "./*": "./dist/*.js"
+    },
+    "dependencies": {
+        "@types/node": "^20.11.15",
+        "typescript": "^5.3.3"
+    }
+}

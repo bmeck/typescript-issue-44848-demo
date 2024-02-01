@@ -1,0 +1,17 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "checkJs": true,
+        "outDir": "dist",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "declaration": true,
+        "moduleDetection": "force",
+        "target": "ESNext",
+        "types": ["node"]
+    }
+}

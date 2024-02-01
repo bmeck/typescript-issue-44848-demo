@@ -1,0 +1,10 @@
+{
+    "name": "test",
+    "type": "module",
+    "imports": {
+        "#a/*": "./*.ts"
+    },
+    "exports": {
+        "./*": "./*.ts"
+    }
+}
