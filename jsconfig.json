@@ -1,11 +1,11 @@
 {
     "include": [
-        "src/**/*"
+        "dist/**/*"
     ],
     "compilerOptions": {
         "strict": true,
         "checkJs": true,
-        "outDir": "dist",
+        "allowJs": true,
         "module": "NodeNext",
         "moduleResolution": "NodeNext",
         "esModuleInterop": true,

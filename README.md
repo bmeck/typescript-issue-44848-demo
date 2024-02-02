@@ -16,6 +16,8 @@ In `package.json`
     * set exports for imports to target `dist/**` files
 * set imports for imports to target `dist/**` files
 
+Make a `jsconfig.json` file for tools referencing the `dist/**` and not using `tsconfig.json` like VSCode when interacting packages outside `src/`. This will be picked up when in that directory and be separate from the `tsconfig.json`.
+
 # Issues
 
 Self reference and imports via package.json are not picked up by JS files.
