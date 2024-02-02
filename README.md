@@ -22,17 +22,4 @@ In `package.json`
 
 Make a `jsconfig.json` file for tools referencing the `dist/**` and not using `tsconfig.json` like VSCode when interacting packages outside `src/`. This will be picked up when in that directory and be separate from the `tsconfig.json`.
 
-# Issues
-
-Self reference and imports via package.json are not picked up by JS files.
-
-Due to being only able to resolve relative paths fully in dist:
-
-![resolved path of dist directory relative import](./img-dist-path-known.png)
-
-The types of imported values differ between `src/`` and `dist/` even with declaration being emitted.
-
-![dist unable to find exported value](./img-dist-export-unknown.png)
-
-![src able to find exported value](./img-src-export-known.png)
-
+NOTE: without `jsconfig.json` the resolution inside of `dist/` for tooling will be incorrect.
