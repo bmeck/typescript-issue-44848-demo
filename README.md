@@ -4,6 +4,10 @@ Given a `src/` directory outputting into `dist/` , `package.json#imports/exports
 
 # Example solution
 
+We will be using `tsconfig.json` for the UX when dealing with TS source.
+
+We will be using `jsconfig.json` for the UX when dealing with TS output.
+
 Make 2 different package.json files in `src/` and `/` and ensure declaration is emitted as shown in `tsconfig.json`.
 
 In `src/package.json` 
